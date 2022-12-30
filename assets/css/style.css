@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --primarycolor:#97be3d;
+    --secondarycolor:
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+
+}
+
+.web-button{
+    background-color:var(--primarycolor);
+    color: white;
+    
+}
+.web-button:hover{
+    background-color:white;
+    color: var(--primarycolor);
+    border: 1px solid var(--primarycolor);
+    
+    
+}
+hr{
+    margin: 3rem 0px;
+    background-color: white;
+}
+.owl-nav{
+    display: flex;
+    justify-content: center;
+}
+.owl-nav button span{
+    font-size:5rem;
+}
+/* header */
+header{
+    color: white !important;
+    background-image: url("https://img.freepik.com/premium-photo/colour-smoke-background_71163-197.jpg?w=900");
+}
+nav{
+    padding: 10px 0px;
+    background-color: white;
+    z-index: +2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+header img{
+    height: 80px;
+}
+section{
+    padding: 50px 0px;
+}
+.card{
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* marketing */
+.marketing .card{
+    padding: 30px 30px;
+    background: #fff;
+    box-shadow: 0px 0px 24px #e0e4e7;
+    /* width: 45%; */
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.experience img,.marketing  img{
+    height: 50px;
+    width: 50px;
+}
+
+
+.experience .card{
+    padding: 30px 30px;
+    background: #fff;
+    box-shadow: 0px 0px 24px #e0e4e7;
+   
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+
+/* testinomial */
+.testinomial .card {
+    padding: 35px;
+    font-weight: 400;
+}
+
+.testinomial .card img{
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
+}
+.testinomial .card img::before{
+    content: "\7c";
+    font-size: 32px;
+    left: 50%;
+    position: absolute;
+    top: -16px;
+    background: #f5f5f5;
+    margin-left: -16px;
+    border-radius: 31px;
+    z-index: 2;
+}
+.partners .owl-carousel img{
+margin-top: 40%;
+
+height: 80px;
+}
+.step-process .card{
+    padding: 3rem;
+}
+.step-process .card:hover{
+    cursor: pointer;
+    background-color:#6850f6 ;
+    color: white !important;
+}
+.step-process .card:hover p{
+    color: white;
+}
+.step-process .card-no{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px solid #ffa51e;
+    display: inline-block;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffa51e;
+
+}
+.step-process .card img{
+    height: 100px;
+    width: 100px;
+}
+
+.our-process{
+background-color:rgb(235,248,253) ;
+}
+.our-process .card img{
+    height: 60px;
+    width: 60px;
+}
+.facebook-out{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: white !important;
+}
+.services .card{
+    height: 250px;
+}
+.services .card img{
+
+}
+
+.contact-us .contact-details{
+    text-align: right;
+}
+/* footer */
+footer{
+
+
+}
+
+@media screen and (max-width:600px) {
+    hr{
+        margin: 1rem 0;
+    }
+.card{
+    margin: 10px 0px;
+}
+
+
+    .our-process .card {
+       margin: 10px 0px;
+    }
+
+.services .card{
+    height: 450px;
+}
+.services .card img{
+    height: 150px;
+    width: 150px;
+}
+
+    .contact-us .contact-details{
+        text-align: center;
+    }
+}
